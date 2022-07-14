@@ -1,0 +1,197 @@
+.main__team-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  .main__team-content {
+    padding: 90px 0px 30px 0px;
+  }
+  
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* .team-title {
+    max-width: 540px;
+  } */
+  
+  .team-title h2 {
+    margin-bottom: 25px;
+  }
+  
+  .team-subtitle {
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--subtitle-color);
+  }
+  
+  h2,
+  h4 {
+    font-family: Rajdhani, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.14;
+    color: var(--title-color);
+  }
+  
+  .title-vertical-line {
+    font-family: inherit;
+    color: var(--brand-color);
+  }
+  
+  .title-dot {
+    font-family: inherit;
+    color: var(--light-accent-color);
+  }
+  
+  .team-vacancies {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 25px;
+  }
+  
+  .vacancies-logo {
+    max-width: 70px;
+    height: auto;
+  }
+  
+  .vacancies-content {
+    margin: 10px;
+  }
+  
+  .vacancies-content h4 {
+    /* max-width: 110px; */
+  }
+  
+  .vacancies-content h4,
+  .personal-card h4 {
+    font-size: 22px;
+    line-height: 1.36;
+  }
+  
+  .vacancies-content p {
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 100%;
+    color: var(--text-color);
+    margin-bottom: 20px;
+  }
+  
+  .vacancies-content a {
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: 700;
+    color: var(--light-accent-color);
+  }
+  
+  .vacancies-content a:hover {
+    text-decoration: underline;
+  }
+  
+  .team-cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  
+  .personal-card img {
+    max-width: 100%;
+    max-height: 365px;
+  }
+  
+  .personal-card {
+    max-width: 295px;
+    margin-top: 45px;
+  }
+  
+  .card-name,
+  .card-work-position {
+    margin-top: 20px;
+  }
+  
+  .card-work-position {
+    font-size: 14px;
+    color: var(--text-color);
+  }
+  
+  .main__team-divider hr {
+    max-width: 1170px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 30px;
+  }
+  
+  .main__team-slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .slide-img {
+    max-width: 204px;
+  }
+  
+  .slide-img img {
+    max-width: 204px;
+  }
+  
+  .main__team-information-request {
+    width: 100%;
+    min-height: 240px;
+    background-color: var(--brand-color);
+  }
+  
+  .information-request-title {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    background-color: var(--brand-color);
+    color: var(--background-color);
+  }
+  
+  .invitation-request {
+    text-align: center;
+    font-family: Rajdhani, sans-serif;
+    font-size: 30px;
+    color: var(--background-color);
+    padding-top: 35px;
+    padding-bottom: 50px;
+  }
+  
+  .invitation-request-btn {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 223px;
+    height: 50px;
+    background-color: var(--background-color);
+    border-radius: 8px;
+    cursor: pointer;
+    margin: auto;
+  }
+  
+  .invitation-request-btn a {
+    font-size: 13.2px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--title-color);
+    background-color: transparent;
+  }
+  
+  .invitation-request-btn:hover {
+    background-color: var(--light-accent-color);
+    transition: all 0.2s ease-in;
+  }
+  
+  @media (min-width: 320px) {
+  }
